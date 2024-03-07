@@ -1,0 +1,22 @@
+{
+  "name": "emori-mssage-bus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs, esm --dts"
+  },
+  "keywords": [
+    "javascript",
+    "clean architecture"
+  ],
+  "author": "Godfrey Lebo",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.11.25",
+    "typescript": "^5.4.2"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.2"
+  }
+}
